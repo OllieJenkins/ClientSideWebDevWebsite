@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Grayscale v4.0.0-beta (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */
+
 body {
   position: relative;
   width: 100%;
@@ -96,7 +92,6 @@ a {
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
   text-align: center;
   color: white;
   background: url("../img/main-bg.jpg") no-repeat bottom center scroll;
@@ -147,7 +142,7 @@ a {
    display: table;
   width: 100%;
   height: 100%;
-  padding: 200px 0;
+  padding: 100px 0;
   text-align: center;
   color: black;
   background-color: peachpuff;
@@ -162,7 +157,6 @@ a {
    display: table;
   width: 100%;
   height: 100%;
-  padding: 200px 0;
   text-align: center;
   color: black;
   background-color: dimgrey;
@@ -178,7 +172,6 @@ a {
    display: table;
   width: 100%;
   height: 100%;
-  padding: 200px 0;
   text-align: center;
   color: black;
   background-color:peachpuff;
@@ -193,7 +186,6 @@ a {
    display: table;
   width: 100%;
   height: 100%;
-  padding: 200px 0;
   text-align: center;
   color: black;
   background-color: dimgrey;
@@ -208,7 +200,6 @@ a {
    display: table;
   width: 100%;
   height: 100%;
-  padding: 200px 0;
   text-align: center;
   color: black;
   background-color: peachpuff;
@@ -222,7 +213,6 @@ a {
    display: table;
   width: 100%;
   height: 100%;
-  padding: 200px 0;
   text-align: center;
   color: black;
   background-color: dimgrey;
@@ -236,7 +226,6 @@ a {
    display: table;
   width: 100%;
   height: 100%;
-  padding: 200px 0;
   text-align: center;
   color: black;
   background-color: peachpuff;
