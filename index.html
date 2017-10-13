@@ -11,13 +11,11 @@
     <title>ClientSideWebDevWebsite</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-<link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Exo+2|Anton|Nunito" rel="stylesheet">
 
 <!-- Custom styles for this template -->
 <link href="css/myStyle.css" rel="stylesheet">
@@ -37,29 +35,30 @@
         <div class="collapse navbar-collapse " id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item ">
-              <a class="nav-link js-scroll-trigger" href="#Home">Home</a>
+              <a class="nav-link js-scroll-trigger" href="#Home" style="font-size:90%;">Home</a>
             </li>  
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#html">HTML And CSS</a>
+              <a class="nav-link js-scroll-trigger" href="#html"  style="font-size:90%;">HTML And CSS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#scripting-languages">Scripting Languages</a>
+              <a class="nav-link js-scroll-trigger" href="#scripting-languages"  style="font-size:90;">Scripting Languages</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#box-model">The Box Model</a>
+              <a class="nav-link js-scroll-trigger" href="#box-model"  style="font-size:90%;">The Box Model</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#css-linking">CSS Linking</a>
+              <a class="nav-link js-scroll-trigger" href="#css-linking"  style="font-size:90%;">CSS Linking</a>
             </li>
               <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#js-features">JS Features</a>
+              <a class="nav-link js-scroll-trigger" href="#implementation"  style="font-size:90%;">Implementation</a>
             </li>
             <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#functionality">Functionality</a>
+                  <a class="nav-link js-scroll-trigger" href="#functionality"  style="font-size:90%;">Functionality</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#accessibility">Accessibilty</a>
+                  <a class="nav-link js-scroll-trigger" href="#accessibility"  style="font-size:90%;">Accessibilty</a>
               </li>
+                  
           </ul>
       </div>
      </div>
@@ -84,55 +83,76 @@
     </header>
 
       
-      
     <!-- HTML and CSS Section -->
     <section id="html" class="html text-center">
       <div class="container">
           <h2>HTML And CSS</h2>
         <div class="row">
           <div class="col-md-6">
-            <p>HTML (the Hypertext Markup 
+            <p> <br>
+                HTML (the Hypertext Markup 
 Language) and CSS (Cascading Style Sheets) are two of the core technologies for building web pages. HTML provides the structure of the page whilst CSS the layout, for a 
 variety of devices. Along with 
 graphics and scripting, HTML and CSS are the basis of building Web pages and web applications. </p>
           </div>
           <div class="col-md-6">
-            <p>HTML (the Hypertext Markup 
-Language) and CSS (Cascading Style Sheets) are two of the core technologies for building web pages. HTML provides the structure of the page whilst CSS the layout, for a 
-variety of devices. Along with 
-graphics and scripting, HTML and CSS are the basis of building Web pages and web applications. </p>
+            <p> <br>
+&lt;html><br>
+&lt;body><br>
+
+&lt;h1> My First Heading&lt;/h1><br>
+
+&lt; p> My first paragraph.&lt;/p><br>
+
+&lt;/body><br>
+&lt;/html><br>
+              </p>
           </div>
              <div class="row">
           <div class="col-md-6">
-            <p>HTML (the Hypertext Markup 
-Language) and CSS (Cascading Style Sheets) are two of the core technologies for building web pages. HTML provides the structure of the page whilst CSS the layout, for a 
-variety of devices. Along with 
-graphics and scripting, HTML and CSS are the basis of building Web pages and web applications. </p>
+            <p>
+&lt;h1 style="color:blue;"><br>
+This is a Blue Heading&lt;/h1><br>
+
+              </p>
           </div>
           <div class="col-md-6">
-            <p>Inline CSS adds styling to a single HTML element by using an attribute of an element called style, this could be an advantage for a specific page to have a different CSS to most, 
+            <p>
+Inline CSS adds styling to a single HTML element by using an attribute of an element called style, this could be an advantage for a specific page to have a different CSS to most, 
 although if you use inline CSS then it must be applied to each of the HTML 
 elements and can take a lot of time. </p>
           </div>
              <div class="row">
           <div class="col-md-6">
-            <p>Internal means that the code that is stored inside the head tag for 
+            <p>
+Internal means that the code is stored inside the head tag for 
 example; if your using internal CSS then you must add a new tag style inside the headtag. If CSS is used with in the page it will take on the 
 formatting. This HTML code contains an example of style usage, when you use an internal CSS be sure to add a new tag, style, inside the tags. </p>
           </div>
              <div class="col-md-6">
-            <p>Internal means that the code that is stored inside the head tag for 
-example; if your using internal CSS then you must add a new tag style inside the headtag. If CSS is used with in the page it will take on the 
-formatting. This HTML code contains an example of style usage, when you use an internal CSS be sure to add a new tag, style, inside the tags. </p>
+            <p>
+&lt;head><br>
+&lt;style><br>
+h1   {color: blue;}<br>
+&lt;/style><br>
+&lt;/head><br>
+&lt;h1>This is a heading&lt;/h1><br>
+                 </p>
           </div>
                   <div class="row">
           <div class="col-md-6">
-            <p>Internal means that the code that is stored inside the head tag for 
-example; if your using internal CSS then you must add a new tag style inside the headtag. If CSS is used with in the page it will take on the 
-formatting. This HTML code contains an example of style usage, when you use an internal CSS be sure to add a new tag, style, inside the tags. </p>
+            <p>
+&lt;head><br>
+&lt;link rel="stylesheet" href="styles.css"><br>
+&lt;/head><br>
+&lt;body><br>
+
+&lt;h1>This is a heading&lt;/h1><br>
+              </p>
           </div>
           <div class="col-md-6">
-            <p>This is an example of External CSS, the HTML code links to style sheet which then links it to the Style Sheet Code. The HTML and the CSS codes are 
+            <p>
+This is an example of External CSS, the HTML code links to style sheet which then links it to the Style Sheet Code. The HTML and the CSS codes are 
 separate with in the pages however they are linked together by using the href code in the example. </p>
           </div>
         </div>
@@ -169,12 +189,43 @@ separate with in the pages however they are linked together by using the href co
       </div>
     </section>
     
-     <!-- JS Features -->
-    <section id="js-features" class="js-features content-section text-center">
+     <!-- Implementation -->
+    <section id="implementation" class="implementation content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
-          <h2>JS Features</h2>
-          <p></p>
+          <h2>Implementation</h2>
+          <p><br>
+              There are three different ways of making CSS selections on a webpage to change certain elements. These are tag Selection, ID Selection and class Selection. These different ways of applying CSS rules would be used in different scenarios depending on what the designer is looking to do.<br><br>
+
+Tag selection  is where the CSS is applied to any HTML element which matches the CSS selection rule. For example if you wanted to change all h2 tags to grey, you would use a tag selection because the rule would then be applied to any piece of HTML surrounded by a h2 tag. Tag selectors can be overridden by more specific rules applied using either ID or class selection, therefore you could use tag selection to put down a basic styling of the webpage. You could then use more specific rules to further style them when needed. For this reason, tag element selection would be good for putting together the house style of the website such as the font colour, family and size. HTML elements are nested which means that if a rule is applied to the body tag, it will also affect the paragraphs so can be used to change the font family of the entire web page at once.<br><br>
+Example code – applying to an address tag:<br>
+
+address { color: gray; }<br><br>
+              
+              ID selection is the next method of selecting specific parts of a webpage to style is to use the element's ID attribute. This is done using the # symbol, followed by the ID of the element. The desired CSS rules then follow. An ID attribute is unique to a page (each element should have a different ID name) and so would normally be used for styling only one specific HTML element – this makes ID selection a good alternative to inline styling. ID selection also works well with JavaScript when being used to change the CSS of a webpage after it has been loaded by the browser. This is because JavaScript has the getDocumentByElementId command which can then be used to alter the existing CSS on the page. Whereas JavaScript’s getElementByClassName isn’t universally recognised by all browsers meaning it can’t be relied upon to change CSS. Another reason to use ID selection over class and tag selection is that it has the higher precedence, this means that ID selection can be used to override any rules created with classes or tags for a specific case.<br><br>
+              
+              Example Code – applying to a p tag with id “someStyling”:<br>
+
+#someStyling {
+    color: red;
+}<br><br>
+
+CSS can also be applied to pages using the class names of each HTML element this is called class selection. It is implemented in a CSS file by typing a . followed by the class name and then any rules that apply to it. One HTML tag can have many classes assigned to it which can then be used to add more rules to an element. For example a division may have a class of panel which gives it a border. It may also then have panel-primary added to it on top which would change the border to blue. Therefore class selections would be used to change the style of more than one element without affecting them all. Class selections can also be used to override the styles set by tag selections. Therefore classes would be used for CSS when a tag selection needs be overridden.<br><br>
+Example code – applied to classes “panel” & “panel-primary”<br>
+
+.panel {<br>
+    border-radius: 5px; 
+}<br>
+.panel-primary {<br>
+    border-color: blue;
+}
+
+
+
+
+
+            
+            </p>
         </div>
       </div>
     </section>
@@ -182,24 +233,23 @@ separate with in the pages however they are linked together by using the href co
     <!-- Functionality -->
     <section id="functionality" class="functionality content-section text-center">
       <div class="container">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-12 mx-auto">
           <h2>Functionality</h2>
-          <p>Client side scripting is when a scripting language runs its functionality on the user's PC through their web browser rather than the server running the website. Server side scripting happens where the website is hosted directly on the server, the opposite of client side scripting. People who host web servers tend to run the most demanding scripts on the client’s PC, this is due to the fact that the client’s PC is a much faster system. Since servers are designed to just run a huge amount of data on the internet, and if you’re using a shared server design, running scripts on the user’s PC is a huge advantage.
+          <p><br> Client side scripting is when a scripting language runs its functionality on the user's PC through their web browser rather than the server running the website. Server side scripting happens where the website is hosted directly on the server, the opposite of client side scripting. People who host web servers tend to run the most demanding scripts on the client’s PC, this is due to the fact that the client’s PC is a much faster system. Since servers are designed to just run a huge amount of data on the internet, and if you’re using a shared server design, running scripts on the user’s PC is a huge advantage.<br><br>
 
-Client side and server side scripting have different scripting environments which they run on, obviously client side scripting is ran on the web browser itself and works with the HTML code. While server side scripting is designed to run on a web server environment, and might even use a whole different scripting language altogether.
-
-
-Client side has a few advantages over server side scripting, especially for the goal of making interactive web pages and interactive gadgets or applets. First the system that client side scripting will be running on is most of the time going to be a lot faster than the server. This means any client side scripting will run significantly faster than server side scripting and allows for fast web page loading. It also means the interactivity will not be hindered, as for server side scripting, it might actually slow down interactive elements of the web page.
+Client side and server side scripting have different scripting environments which they run on, obviously client side scripting is ran on the web browser itself and works with the HTML code. While server side scripting is designed to run on a web server environment, and might even use a whole different scripting language altogether.<br><br>
 
 
-Server side scripting is mostly used for communicating with databases and retrieving information on the user. Things like e-commerce, social networks, security, privacy and data keeping will be used for server side scripting, as servers can handle huge amounts of data. Which is where client side scripting can fall short, but since interactivity and web page presentation does not depend on huge amounts of data, it does not need that sort of power.
-Client side scripting is a lot more advantageous to use against server side scripting for interactivity of web pages. Simply due to the fact that the computer running the said script will be faster, which also in turn relieves a huge amount of stress on the server side scripting. Which means it allows for the server side scripting to deal with more specific situations to do with databases and security.
+Client side has a few advantages over server side scripting, especially for the goal of making interactive web pages and interactive gadgets or applets. First the system that client side scripting will be running on is most of the time going to be a lot faster than the server. This means any client side scripting will run significantly faster than server side scripting and allows for fast web page loading. It also means the interactivity will not be hindered, as for server side scripting, it might actually slow down interactive elements of the web page.<br><br>
 
 
-Client side scripting is a huge advantage for basic user experience and interaction with the web page, it is extremely useful since it is used mainly for interaction and the design of the web page. User experience in this day and age depends heavily on the usage of client side scripting, things like drop-down boxes would not be even possible without the usage of client side scripting.
-Before scripting, things were extremely basic as web sites only used HTML and CSS, there weren’t any forms or animations of any sort, nor were there any drop-down boxes. Client side scripting is extremely important because it saves the user time, and makes your web page easier to navigate, and provides visual benefits in making your design more appealing and understandable. 
-Client side scripting also forwarded the increase in security on the World Wide Web and has provided a huge array of benefits for the user. Form validation refers to forms returning messages based on what the user has inputted into the form’s text boxes, the form information can even be compared to a database. However simple things like checking if a form has actually been filled out or not can be done on a client side scripting language like JavaScript.
-In conclusion, client side scripting has improved the user accessibility of the web, and has enabled people to have a better understanding of the web pages they view. It has made web pages evolve in the way they look, the way they function and the way they handle information from a data base. It has also improved the loading speeds of web pages tremendously over the course of the evolution of client side scripting. Client side scripting and Server side scripting are both required for a functioning website, but for interactivity and form validation, client side scripting is imperative.
+Server side scripting is mostly used for communicating with databases and retrieving information on the user. Things like e-commerce, social networks, security, privacy and data keeping will be used for server side scripting, as servers can handle huge amounts of data. Which is where client side scripting can fall short, but since interactivity and web page presentation does not depend on huge amounts of data, it does not need that sort of power.<br><br>
+              
+Client side scripting is a lot more advantageous to use against server side scripting for interactivity of web pages. Simply due to the fact that the computer running the said script will be faster, which also in turn relieves a huge amount of stress on the server side scripting. Which means it allows for the server side scripting to deal with more specific situations to do with databases and security. Client side scripting is a huge advantage for basic user experience and interaction with the web page, it is extremely useful since it is used mainly for interaction and the design of the web page. User experience in this day and age depends heavily on the usage of client side scripting, things like drop-down boxes would not be even possible without the usage of client side scripting.<br><br>
+              
+Before scripting, things were extremely basic as web sites only used HTML and CSS, there weren’t any forms or animations of any sort, nor were there any drop-down boxes. Client side scripting is extremely important because it saves the user time, and makes your web page easier to navigate, and provides visual benefits in making your design more appealing and understandable. Client side scripting also forwarded the increase in security on the World Wide Web and has provided a huge array of benefits for the user. Form validation refers to forms returning messages based on what the user has inputted into the form’s text boxes, the form information can even be compared to a database. However simple things like checking if a form has actually been filled out or not can be done on a client side scripting language like JavaScript.<br><br>
+
+              In conclusion, client side scripting has improved the user accessibility of the web, and has enabled people to have a better understanding of the web pages they view. It has made web pages evolve in the way they look, the way they function and the way they handle information from a data base. It has also improved the loading speeds of web pages tremendously over the course of the evolution of client side scripting. Client side scripting and Server side scripting are both required for a functioning website, but for interactivity and form validation, client side scripting is imperative.
 </p> 
         </div>
       </div>
@@ -208,9 +258,18 @@ In conclusion, client side scripting has improved the user accessibility of the 
      <!-- Accessibility -->
     <section id="accessibility" class="accessibility content-section text-center">
       <div class="container">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-12 mx-auto">
           <h2>Accessibility</h2>
-          <p></p>
+          <p><br>
+            There are many different browsers in use today by website visitors. Some of the most popular ones being used today include: Chrome, Internet Explorer, Firefox and Safari. However because of the way each browser renders web content there can be some difference in the way the same piece of code is run in two different browsers. This is why it is so important to test a website in multiple browsers.<br><br>
+              
+Browser detection can be used to see which features of JavaScript a certain browser can handle. For example some of the older browsers, such as Firefox 3, don’t support the newer features of JavaScript. Therefore a developer will know to avoid trying to use these features if this browser check as returned Firefox 3 as the browser being used. This means that newer browsers get the additional features available in JavaScript but the website is still compatible in older browsers.<br><br>
+              
+Another way of seeing which JavaScript functions are available in the current browser is using object detection. This checks to see whether the object needed to run a certain function is available. For instance the random function in JavaScript is reliant on the Math class.<br><br>
+              
+This method of feature detection is better than simply detecting the browser name because a feature may be incompatible with many different browsers. By using object detection, you can just run one check before using a JavaScript function. With browser detection you would need to run a check for every incompatible browser which would take more time to run and execute.
+There are also a few differences between browsers in the way that the JavaScript engine interprets scripts. For example glitches are present in Internet Explorer that aren’t in other browsers, these need to be taken into account when making client side scripts. One of those glitches is that when making an array, all browsers are fine with a trailing comma after the last element except Internet Explorer. 
+            </p>
         </div>
       </div>
     </section>
@@ -248,12 +307,12 @@ In conclusion, client side scripting has improved the user accessibility of the 
     </footer>
         
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/popper/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts -->
     <script src="js/myScripts.js"></script>

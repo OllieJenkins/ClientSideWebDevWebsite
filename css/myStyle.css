@@ -12,10 +12,6 @@ html {
 
 h1 {font-family: 'Exo 2', sans-serif; }
 h2 {font-family: 'Exo 2', sans-serif; }
-h3 {font-family: 'Exo 2', sans-serif; }
-h4 {font-family: 'Exo 2', sans-serif; }
-h5 {font-family: 'Exo 2', sans-serif; }
-h6 {font-family: 'Exo 2', sans-serif; }
 }
     {
   margin: 0 0 35px;
@@ -48,14 +44,16 @@ a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: black; }
   #mainNav .navbar-toggler {
-    font-size: 14px;
+    font-size: 18px;
     padding: 11px;
     color: white;
     border: 1px solid white; }
   #mainNav .navbar-brand {
     font-weight: 700; }
   #mainNav a {
-    color: white; }
+    color: white;
+    
+}
   #mainNav .navbar-nav .nav-item {
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
@@ -133,37 +131,27 @@ a {
     color: white;
     outline: none;
     background: rgba(255, 255, 255, 0.1); }
-
-.content-section {
-  padding-top: 150px;
-  padding-bottom: 150px; }
   
 .html {
    display: table;
   width: 100%;
   height: 100%;
   padding: 50px 0;
+  font-family: 'Exo 2', sans-serif; 
   text-align: center;
   color: black;
-  background-color: peachpuff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
-    
+  background-color: peachpuff;  
 }
 
 .scripting-languages {
    display: table;
   width: 100%;
   height: 100%;
+  padding: 50px 0;
+  font-family: 'Exo 2', sans-serif; 
   text-align: center;
   color: black;
-  background-color: dimgrey;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;       
+  background-color: dimgrey;    
 }
 
 
@@ -172,13 +160,11 @@ a {
    display: table;
   width: 100%;
   height: 100%;
+  padding: 50px 0;
+  font-family: 'Exo 2', sans-serif; 
   text-align: center;
   color: black;
-  background-color:peachpuff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;       
+  background-color:peachpuff; 
 }
 
 
@@ -186,55 +172,54 @@ a {
    display: table;
   width: 100%;
   height: 100%;
+  padding: 50px 0;
+  font-family: 'Exo 2', sans-serif; 
   text-align: center;
   color: black;
-  background-color: dimgrey;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;       
+  background-color: dimgrey; 
 }
 
 
-.js-features {
+.implementation {
    display: table;
   width: 100%;
   height: 100%;
+  padding: 50px 0;
+  font-family: 'Exo 2', sans-serif; 
   text-align: center;
   color: black;
-  background-color: peachpuff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;       
+  background-color: peachpuff;       
 }
 
 .functionality {
    display: table;
   width: 100%;
   height: 100%;
+  padding: 50px 0;
+  font-family: 'Exo 2', sans-serif; 
   text-align: center;
   color: black;
-  background-color: dimgrey;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;       
+  background-color: dimgrey;  
 }
 
 .accessibility {
    display: table;
   width: 100%;
   height: 100%;
+  padding: 50px 0;
+  font-family: 'Exo 2', sans-serif; 
   text-align: center;
   color: black;
-  background-color: peachpuff;
+  background-color: peachpuff;     
+}
+
+/*   background-color: peachpuff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;       
 }
-
+*/ 
 
 .btn {
   -webkit-transition: all 0.3s ease-in-out;
@@ -269,6 +254,7 @@ ul.banner-social-buttons {
 footer {
   color: black;
   background-color: dimgrey;  
+  font-family: 'Exo 2', sans-serif;
   padding: 30px 0; }
   footer p {
     font-size: 14px;
