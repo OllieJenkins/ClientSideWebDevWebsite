@@ -1,4 +1,3 @@
-
 body {
   position: relative;
   width: 100%;
@@ -20,6 +19,7 @@ h2 {font-family: 'Exo 2', sans-serif; }
 
 p {
   font-size: 16px;
+  font-family: 'Exo 2', sans-serif; 
   line-height: 1.5;
   margin: 0 0 25px; }
   @media (min-width: 768px) {
@@ -28,21 +28,12 @@ p {
       line-height: 1.6;
       margin: 0 0 35px; } }
 
-a {
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  color: #42DCA3; }
-  a:focus, a:hover {
-    text-decoration: none;
-    color: #1d9b6c; }
-
+/* Collapsed Nav */
 #mainNav {
     font-family: 'Exo 2', sans-serif; 
-  margin-bottom: 0;
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black; }
+ border-bottom: 5px solid white;
+  background-color:  #333; }
   #mainNav .navbar-toggler {
     font-size: 18px;
     padding: 11px;
@@ -52,8 +43,9 @@ a {
     font-weight: 700; }
   #mainNav a {
     color: white;
-    
 }
+
+/* Normal Nav */
   #mainNav .navbar-nav .nav-item {
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
@@ -78,18 +70,18 @@ a {
       #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        background: black; }
+        border-bottom: 5px solid white;
+        background:  #333; }
       #mainNav .nav-link.active {
         outline: none;
         background-color: rgba(255, 255, 255, 0.3); }
         #mainNav .nav-link.active:hover {
           color: white; } }
 
-.masthead {
+.home {
   display: table;
   width: 100%;
-  height: auto;
+  height: 100%;
   text-align: center;
   color: white;
   background: url("../img/main-bg.jpg") no-repeat bottom center scroll;
@@ -98,21 +90,15 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  .masthead .intro-body {
+  .home .intro-body {
     display: table-cell;
     vertical-align: middle; }
-    .masthead .intro-body .brand-heading {
-      font-size: 50px; }
-    .masthead .intro-body .intro-text {
+    .button {
       font-size: 18px; }
   @media (min-width: 768px) {
-    .masthead {
-      height: 100%;
-      padding: 0; }
-      .masthead .intro-body .brand-heading {
+        .title {
         font-size: 100px; }
-      .masthead .intro-body .intro-text {
-        font-size: 22px; } }
+  
 
 .btn-circle {
   font-size: 26px;
@@ -137,7 +123,6 @@ a {
   width: 100%;
   height: 100%;
   padding: 50px 0;
-  font-family: 'Exo 2', sans-serif; 
   text-align: center;
   color: black;
   background-color: #E5E4E2;   
@@ -148,10 +133,9 @@ a {
   width: 100%;
   height: 100%;
   padding: 50px 0;
-  font-family: 'Exo 2', sans-serif; 
   text-align: center;
-  color: black;
-  background-color: #FFFFFF;    
+  color: white;
+  background-color: #333;    
 }
 
 
@@ -161,7 +145,6 @@ a {
   width: 100%;
   height: 100%;
   padding: 50px 0;
-  font-family: 'Exo 2', sans-serif; 
   text-align: center;
   color: black;
   background-color:#E5E4E2; 
@@ -173,10 +156,9 @@ a {
   width: 100%;
   height: 100%;
   padding: 50px 0;
-  font-family: 'Exo 2', sans-serif; 
   text-align: center;
-  color: black;
-  background-color: #FFFFFF; 
+  color: white;
+  background-color: #333;    
 }
 
 
@@ -185,7 +167,6 @@ a {
   width: 100%;
   height: 100%;
   padding: 50px 0;
-  font-family: 'Exo 2', sans-serif; 
   text-align: center;
   color: black;
   background-color: #E5E4E2;       
@@ -196,10 +177,9 @@ a {
   width: 100%;
   height: 100%;
   padding: 50px 0;
-  font-family: 'Exo 2', sans-serif; 
   text-align: center;
-  color: black;
-  background-color: #FFFFFF;  
+  color: white;
+  background-color: #333;    
 }
 
 .accessibility {
@@ -207,19 +187,11 @@ a {
   width: 100%;
   height: 100%;
   padding: 50px 0;
-  font-family: 'Exo 2', sans-serif; 
   text-align: center;
   color: black;
   background-color: #E5E4E2;     
 }
-
-/*   background-color: peachpuff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;       
-}
-*/ 
+    
 
 .btn {
   -webkit-transition: all 0.3s ease-in-out;
@@ -229,14 +201,14 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color:white;
+  border: 1px solid white;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: black;
-    border: 1px solid #42DCA3;
+    border: 1px solid white;
     outline: none;
-    background-color: #42DCA3; }
+    background-color: white; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
@@ -252,13 +224,22 @@ ul.banner-social-buttons {
         margin-bottom: 0; } }
 
 footer {
-  color: black;
-  background-color: dimgrey;  
+  color: white;
+  background-color: #333;    
   font-family: 'Exo 2', sans-serif;
-  padding: 30px 0; }
-  footer p {
-    font-size: 14px;
-    margin: 0; }
+  padding   : 30px; }
+
+.box {
+  background-color: #333; 
+  padding-left:5px;
+    padding-right:5px;
+}
+
+.box2{
+  background-color: #888;
+     padding-left:5px;
+    padding-right:5px;
+}
 
 
 ::-moz-selection {
