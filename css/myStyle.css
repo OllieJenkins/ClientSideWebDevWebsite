@@ -9,7 +9,9 @@ html {
   width: 100%;
   height: 100%; }
 
-h1 {font-family: 'Exo 2', sans-serif; }
+h1 {font-family: 'Exo 2', sans-serif; 
+   padding-left: 60px;
+}
 h2 {font-family: 'Exo 2', sans-serif; }
 }
     {
@@ -32,9 +34,11 @@ p {
 /* Collapsed Nav */
 #mainNav {
     font-family: 'Exo 2', sans-serif; 
+    font-size: 14px;
   text-transform: uppercase;
  border-bottom: 5px solid white;
-  background-color:  #333; }
+  background-color:  #333; 
+}
   #mainNav .navbar-toggler {
     font-size: 18px;
     padding: 11px;
@@ -102,9 +106,9 @@ p {
   
 
 .btn-circle {
-  font-size: 26px;
-  width: 55px;
-  height: 55px;
+  font-size: 55px;
+  width: 75px;
+  height: 75px;
   margin-top: 15px;
   line-height: 38px;
   -webkit-transition: background 0.3s ease-in-out;
@@ -236,17 +240,74 @@ footer {
   background-color: #333; 
   padding-left:5px;
     padding-right:5px;
+    height: 400px;
+    width: 280px;
+    border-bottom: 35px solid #E5E4E2;
 }
 
 .box2{
   background-color: #888;
      padding-left:5px;
     padding-right:5px;
+      height: 400px;
+    width: 280px;
+    border-bottom: 35px solid #E5E4E2;
+    padding-top: 70px;
+}
+.box3{
+  background-color: #333;
+ padding-left:5px;
+    padding-right:5px;
+    height: 450px;
+    width: 280px;
+    border-bottom: 35px solid #E5E4E2;
+
 }
 
+ .box4 {
+  background-color: #888; 
+  padding-left:5px;
+    padding-right:5px;
+    height: 450px;
+    width: 280px;
+    border-bottom: 35px solid #E5E4E2;
+     padding-top: 95px;
+}
+  .box5 {
+  background-color: #333; 
+  padding-left:5px;
+    padding-right:5px;
+
+          
+}
+  .box6{
+  background-color: #888;
+     padding-left:5px;
+    padding-right:5px;
+    font-family: 'Exo 2', sans-serif; 
+      
+}
+
+      .box7 {
+  background-color: #333; 
+  padding-left:5px;
+    padding-right:5px;
+    height: 150px;
+          
+}
+   
+      .box8{
+  background-color: #888;
+     padding-left:5px;
+    padding-right:5px;
+    height:235px;
+          
+}
+      
     .button {
         border: none;
         color: #888;
+            font-family: 'Exo 2', sans-serif; 
         padding: 16px 32px;
         text-align: center;
         text-decoration: none;
