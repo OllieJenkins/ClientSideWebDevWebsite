@@ -1,6 +1,25 @@
 (function($) {
   "use strict"; // Start of use strict
+    
+$('#myButton1').click(function() {
+  $('#para1').toggle('slow', function() {
+    // Animation complete.
+  });
+});
 
+
+    $('#myButton2').click(function() {
+  $('#para2').toggle('slow', function() {
+    // Animation complete.
+  });
+});
+    
+    $('#myButton3').click(function() {
+  $('#para3').toggle('slow', function() {
+    // Animation complete.
+  });
+});
+    
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -35,6 +54,7 @@
     }
   });
 
+    
 })(jQuery); // End of use strict
 
 
