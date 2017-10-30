@@ -69,9 +69,8 @@
       <div class="intro-body">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg-12 mx-auto">
               <h1 class="title" >CSS And Scripting Languages</h1>
-              <p class="button"></p>
               <a href="#html" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
@@ -200,21 +199,19 @@ Object orientated programs are a set of instructions which allow different objec
           <div class="col-md-3">
               <div class="box3">
             <p> <br>
-                In CSS, the term box model is used when talking about design and layout of the HTML webpage, this consists of margin, padding, border and content. The CSS box model is fundamentally a box that forms around HTML elements, which allows you to display content on your website. The box model is a set of standards for how browsers will display the content.<br><br> </p>
+                In CSS, the term box model is used when talking about design and layout of the HTML webpage, this consists of margin, padding, border and content. The CSS box model is fundamentally a box that forms around HTML elements, which allows you to display content. The box model is primarily a set of standards.<br><br> </p>
           </div>
               </div>
           <div class="col-md-3">
-                  <div class="box3">
+                  <div class="box9">
             <p> <br>
- HTML (the Hypertext Markup 
-Language) and CSS (Cascading Style Sheets) are two of the core technologies for building web pages. HTML provides the structure of the page whilst CSS the layout, for a 
-variety of devices. Along with 
-graphics and scripting, HTML and CSS are the basis of building Web pages and web applications.<br><br><br><br>
+                <img src="img/box-model.jpg" style="width:260px;height:250x;">
+                <br><br><br><br>
               </p>
           </div>
               </div>
           <div class="col-md-3">
-              <div class="box4">
+              <div class="box10">
             <p><br>
 margin-top:100px;<br>
 margin-bottom:100px;<br>
@@ -234,7 +231,7 @@ border-width:5px; }<br><br><br><br><br><br><br><br><br>
 displays space between the 
 element and other box model parts on the page. 
 The border is the next box model term surrounding the box. Borders can be colored or transparent.  
-Borders can be used for decorative purposes, and distinctively displays the webpage.<br><br><br></p>
+Borders can be used for decorative purposes.<br><br><br></p>
           </div>
                 </div>
 
@@ -272,15 +269,14 @@ color:red;}<br>
           <div class="col-md-3">
               <div class="box3"> 
             <p><br>
- ID selectors allow you to set the style format of your elements within your web page. They are used for specific styles for one unique element and are known by using a hast tag (#). 
-Class Selectors allow you to set a specific type of style for several 
-different HTML elements. The Class 
+ ID selectors allow you to set the style of your elements within the page. They are used for specific styles for one unique element and are known by using a hast tag (#). 
+Class Selectors allow you to set a specific type of style for elements. The Class 
 selectors are known by using a dot (.) before the code.<br><br></p>
           </div>
                </div>
         </div>
       </div>    
-    </section>
+        </section>
          
      <!-- CSS Linking -->
     <section id="css-linking" class="css-linking content-section text-center">
@@ -317,10 +313,9 @@ This stands for relation. The attribute tells the user agent what relation this 
           <p><br>
               There are three different ways of making CSS selections on a webpage to change certain elements. These are tag Selection, ID Selection and class Selection. These different ways of applying CSS rules would be used in different scenarios depending on what the designer is looking to do.<br><br></div></p>
           
-                  <a id="myButton1" type="button" name="answer" class="button button4">Tag Selection</a> 
-<div id="para1" style="display:none;" class="answer_list" >
+                  <a id="myButton1" type="button" name="answer" class="button">Tag Selection</a> 
+<div id="para1" style="display:none;" class="answer_list " >
           <div class="box6">
-<p>
 Tag selection  is where the CSS is applied to any HTML element which matches the CSS selection rule. For example if you wanted to change all h2 tags to grey, you would use a tag selection because the rule would then be applied to any piece of HTML surrounded by a h2 tag. Tag selectors can be overridden by more specific rules applied using either ID or class selection, therefore you could use tag selection to put down a basic styling of the webpage. You could then use more specific rules to further style them when needed. For this reason, tag element selection would be good for putting together the house style of the website such as the font colour, family and size. HTML elements are nested which means that if a rule is applied to the body tag, it will also affect the paragraphs so can be used to change the font family of the entire web page at once.<br><br>
 Example code – applying to an address tag:<br>
 
@@ -328,9 +323,9 @@ address { color: gray; }<br><br></p>
           </div>
           </div>
               <br><br><br><br><br><br>
-          <a id="myButton2" type="button" name="answer" class="button button4"> ID Selection</a>
+          <a id="myButton2" type="button" name="answer" class="button2"> ID Selection</a>
 <div id="para2" style="display:none;" class="answer_list" >
-          <div class="box6">
+          <div class="box11">
               ID selection is the next method of selecting specific parts of a webpage to style is to use the element's ID attribute. This is done using the # symbol, followed by the ID of the element. The desired CSS rules then follow. An ID attribute is unique to a page (each element should have a different ID name) and so would normally be used for styling only one specific HTML element – this makes ID selection a good alternative to inline styling. ID selection also works well with JavaScript when being used to change the CSS of a webpage after it has been loaded by the browser. This is because JavaScript has the getDocumentByElementId command which can then be used to alter the existing CSS on the page. Whereas JavaScript’s getElementByClassName isn’t universally recognised by all browsers meaning it can’t be relied upon to change CSS. Another reason to use ID selection over class and tag selection is that it has the higher precedence, this means that ID selection can be used to override any rules created with classes or tags for a specific case.<br><br>
               
               Example Code – applying to a p tag with id “someStyling”:<br>
@@ -341,7 +336,7 @@ address { color: gray; }<br><br></p>
           </div>
           </div>
               <br><br><br><br><br><br>
-        <a id="myButton3" type="button" name="answer" class="button button4"> Class Names</a>
+        <a id="myButton3" type="button" name="answer" class="button3"> Class Names</a>
 <div id="para3" style="display:none;" class="answer_list" >
           <div class="box6">
 CSS can also be applied to pages using the class names of each HTML element this is called class selection. It is implemented in a CSS file by typing a . followed by the class name and then any rules that apply to it. One HTML tag can have many classes assigned to it which can then be used to add more rules to an element. For example a division may have a class of panel which gives it a border. It may also then have panel-primary added to it on top which would change the border to blue. Therefore class selections would be used to change the style of more than one element without affecting them all. Class selections can also be used to override the styles set by tag selections. Therefore classes would be used for CSS when a tag selection needs be overridden.<br><br>
@@ -364,21 +359,17 @@ Example code – applied to classes “panel” & “panel-primary”<br>
       <div class="container">
         <div class="col-lg-12 mx-auto">
           <h2>Functionality</h2>
-          <p><br> Client side scripting is when a scripting language runs its functionality on the user's PC through their web browser rather than the server running the website. Server side scripting happens where the website is hosted directly on the server, the opposite of client side scripting. People who host web servers tend to run the most demanding scripts on the client’s PC, this is due to the fact that the client’s PC is a much faster system. Since servers are designed to just run a huge amount of data on the internet, and if you’re using a shared server design, running scripts on the user’s PC is a huge advantage.<br><br>
-
-Client side and server side scripting have different scripting environments which they run on, obviously client side scripting is ran on the web browser itself and works with the HTML code. While server side scripting is designed to run on a web server environment, and might even use a whole different scripting language altogether.<br><br>
+          <p><br> Client side scripting is when a scripting language runs its functionality on the user's PC through their web browser rather than the server running the website. Server side scripting happens where the website is hosted directly on the server, the opposite of client side scripting. People who host web servers tend to run the most demanding scripts on the client’s PC, this is due to the fact that the client’s PC is a much faster system. Since servers are designed to just run a huge amount of data on the internet, and if you’re using a shared server design, running scripts on the user’s PC is a huge advantage. Client side and server side scripting have different scripting environments which they run on, obviously client side scripting is ran on the web browser itself and works with the HTML code. While server side scripting is designed to run on a web server environment, and might even use a whole different scripting language altogether.<br><br>
 
 
 Client side has a few advantages over server side scripting, especially for the goal of making interactive web pages and interactive gadgets or applets. First the system that client side scripting will be running on is most of the time going to be a lot faster than the server. This means any client side scripting will run significantly faster than server side scripting and allows for fast web page loading. It also means the interactivity will not be hindered, as for server side scripting, it might actually slow down interactive elements of the web page.<br><br>
 
 
 Server side scripting is mostly used for communicating with databases and retrieving information on the user. Things like e-commerce, social networks, security, privacy and data keeping will be used for server side scripting, as servers can handle huge amounts of data. Which is where client side scripting can fall short, but since interactivity and web page presentation does not depend on huge amounts of data, it does not need that sort of power.<br><br>
-              
-Client side scripting is a lot more advantageous to use against server side scripting for interactivity of web pages. Simply due to the fact that the computer running the said script will be faster, which also in turn relieves a huge amount of stress on the server side scripting. Which means it allows for the server side scripting to deal with more specific situations to do with databases and security. Client side scripting is a huge advantage for basic user experience and interaction with the web page, it is extremely useful since it is used mainly for interaction and the design of the web page. User experience in this day and age depends heavily on the usage of client side scripting, things like drop-down boxes would not be even possible without the usage of client side scripting.<br><br>
-              
-Before scripting, things were extremely basic as web sites only used HTML and CSS, there weren’t any forms or animations of any sort, nor were there any drop-down boxes. Client side scripting is extremely important because it saves the user time, and makes your web page easier to navigate, and provides visual benefits in making your design more appealing and understandable. Client side scripting also forwarded the increase in security on the World Wide Web and has provided a huge array of benefits for the user. Form validation refers to forms returning messages based on what the user has inputted into the form’s text boxes, the form information can even be compared to a database. However simple things like checking if a form has actually been filled out or not can be done on a client side scripting language like JavaScript.<br><br>
 
-              In conclusion, client side scripting has improved the user accessibility of the web, and has enabled people to have a better understanding of the web pages they view. It has made web pages evolve in the way they look, the way they function and the way they handle information from a data base. It has also improved the loading speeds of web pages tremendously over the course of the evolution of client side scripting. Client side scripting and Server side scripting are both required for a functioning website, but for interactivity and form validation, client side scripting is imperative.
+              
+Before scripting, things were extremely basic as web sites only used HTML and CSS, there weren’t any forms or animations of any sort, nor were there any drop-down boxes. Client side scripting is extremely important because it saves the user time, and makes your web page easier to navigate, and provides visual benefits in making the design more appealing and understandable. Client side scripting also forwarded the increase in security on the World Wide Web and has provided a huge array of benefits for the user. Form validation refers to forms returning messages based on what the user has inputted into the form’s text boxes, the form information can even be compared to a database. 
+
 </p> 
         </div>
       </div>
@@ -416,19 +407,19 @@ There are also a few differences between browsers in the way that the JavaScript
             <p>Feel free to contact me on any of the social media links below. </p>
             <ul class="list-inline banner-social-buttons">
               <li class="list-inline-item">
-                <a href="https://twitter.com" class="btn btn-default btn-lg">
+                <a href="https://twitter.com" target="_blank" https://twitter.com class="btn btn-default btn-lg">
                   <i class="fa fa-twitter fa-fw"></i>
                   <span class="network-name">Twitter</span>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://github.com/" class="btn btn-default btn-lg">
+                <a href="https://github.com" target="_blank" https://github.com class="btn btn-default btn-lg">
                   <i class="fa fa-github fa-fw"></i>
                   <span class="network-name">Github</span>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://plus.google.com" class="btn btn-default btn-lg">
+                <a href="https://plus.google.com" target="_blank" https://plus.google.com class="btn btn-default btn-lg">
                   <i class="fa fa-google-plus fa-fw"></i>
                   <span class="network-name">Google+</span>
                 </a>

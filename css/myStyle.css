@@ -106,18 +106,18 @@ p {
   
 
 .btn-circle {
-  font-size: 55px;
-  width: 75px;
-  height: 75px;
+
+  font-size: 100px;
   margin-top: 15px;
-  line-height: 38px;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
   color: white;
   border: 2px solid white;
   border-radius: 100% !important;
-  background: transparent; }
+  background: transparent; 
+  position: relative;top: 100px;  
+}
   .btn-circle:focus, .btn-circle:hover {
     color: white;
     outline: none;
@@ -170,9 +170,9 @@ p {
   width: 100%;
   height: 100%;
   padding: 50px 0;
-  text-align: center;
   color: black;
-  background-color: #E5E4E2;       
+  background-color: #E5E4E2;    
+    font-size: 18px;
 }
 
 .functionality {
@@ -258,7 +258,7 @@ footer {
   background-color: #333;
  padding-left:5px;
     padding-right:5px;
-    height: 450px;
+    height: 400px;
     width: 280px;
     border-bottom: 35px solid #E5E4E2;
 
@@ -268,23 +268,58 @@ footer {
   background-color: #888; 
   padding-left:5px;
     padding-right:5px;
-    height: 450px;
+    height: 400px;
     width: 280px;
     border-bottom: 35px solid #E5E4E2;
      padding-top: 95px;
 }
+      
+ .box9 {
+  background-color: #888; 
+  padding-left:5px;
+    padding-right:5px;
+    height: 400px;
+    width: 280px;
+    border-bottom: 35px solid #E5E4E2;
+     padding-top: 80px;
+}
+ .box10 {
+  background-color: #888; 
+  padding-left:5px;
+    padding-right:5px;
+    height: 400px;
+    width: 280px;
+    border-bottom: 35px solid #E5E4E2;
+     padding-top: 60px;
+}
+      
   .box5 {
   background-color: #333; 
   padding-left:5px;
     padding-right:5px;
+          font-family: 'Exo 2', sans-serif; 
 
           
 }
   .box6{
   background-color: #888;
-     padding-left:5px;
+     padding-left:200   px;
     padding-right:5px;
     font-family: 'Exo 2', sans-serif; 
+       height: 400px;
+    width: 880px;
+      position: relative;left: 190px;bottom:61px;
+      
+}
+      
+ .box11{
+  background-color: #888;
+     padding-left:200   px;
+    padding-right:5px;
+    font-family: 'Exo 2', sans-serif; 
+       height: 400px;
+    width: 900px;
+    position: relative;bottom:61px;  
       
 }
 
@@ -307,6 +342,7 @@ footer {
     .button {
         border: none;
         color: #888;
+            background-color: #333;
             font-family: 'Exo 2', sans-serif; 
         padding: 16px 32px;
         text-align: center;
@@ -314,14 +350,46 @@ footer {
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
-        -webkit-transition-duration: 0.4s; /* Safari */
+        -webkit-transition-duration: 0.4s;
         transition-duration: 0.4s;
         cursor: pointer;
+            position:relative;right:452px;
+
+        
     }
-      .button4 {
-    background-color: #333;
-    color: #888;
-}
+       .button2 {
+        border: none;
+               background-color: #333;
+        color: #888;
+            font-family: 'Exo 2', sans-serif; 
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    position:relative;left:464px;
+    }
+    
+       .button3 {
+        border: none;
+        color: #888;
+            background-color: #333;
+            font-family: 'Exo 2', sans-serif; 
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+            position:relative;right:458px;
+  }
 
 .button4:hover {background-color:#E5E4E2;}
 
