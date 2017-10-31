@@ -1,9 +1,11 @@
 body {
   position: relative;
-  width: 100%;
+  width: 1920px;
   height: 100%;
   color: white;
-  background-color: black; }
+  background-color: black; 
+}
+
 
 html {
   width: 100%;
@@ -91,22 +93,16 @@ p {
   color: white;
   background: url("../img/main-bg.jpg") no-repeat bottom center scroll;
   background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+    font-family: 'Exo 2', sans-serif;     
+}
   .home .intro-body {
     display: table-cell;
     vertical-align: middle; }
-    .button {
-      font-size: 18px; }
-  @media (min-width: 768px) {
         .title {
         font-size: 100px; }
   
 
 .btn-circle {
-
   font-size: 100px;
   margin-top: 15px;
   -webkit-transition: background 0.3s ease-in-out;
@@ -116,7 +112,7 @@ p {
   border: 2px solid white;
   border-radius: 100% !important;
   background: transparent; 
-  position: relative;top: 100px;  
+  position: relative;top: 50px;  
 }
   .btn-circle:focus, .btn-circle:hover {
     color: white;
@@ -130,7 +126,9 @@ p {
   padding: 50px 0;
   text-align: center;
   color: black;
-  background-color: #E5E4E2;   
+  background-color: #E5E4E2;  
+     width: 1920px;
+  height: 580px;
 }
 
 .scripting-languages {
@@ -141,6 +139,8 @@ p {
   text-align: center;
   color: white;
   background-color: #333;    
+     width: 1920px;
+  height: 580px;
 }
 
 .box-model {
@@ -151,6 +151,8 @@ p {
   text-align: center;
   color: black;
   background-color:#E5E4E2; 
+     width: 1920px;
+  height: 580px;
 }
 
 
@@ -162,6 +164,8 @@ p {
   text-align: center;
   color: white;
   background-color: #333;    
+     width: 1920px;
+  height: 580px;
 }
 
 
@@ -173,6 +177,8 @@ p {
   color: black;
   background-color: #E5E4E2;    
     font-size: 18px;
+     width: 1920px;
+  height: 580px;
 }
 
 .functionality {
@@ -183,6 +189,8 @@ p {
   text-align: center;
   color: white;
   background-color: #333;    
+     width: 1920px;
+  height: 580px;
 }
 
 .accessibility {
@@ -193,6 +201,8 @@ p {
   text-align: center;
   color: black;
   background-color: #E5E4E2;     
+     width: 1920px;
+  height: 580px;
 }
     
 
