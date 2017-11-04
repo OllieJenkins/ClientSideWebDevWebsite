@@ -130,8 +130,7 @@ p {
   text-align: center;
   color: black;
   background-color: #E5E4E2;  
-     width: 1920px;
-  height: 580px;
+
 }
 
 .scripting-languages {
@@ -142,8 +141,7 @@ p {
   text-align: center;
   color: white;
   background-color: #333;    
-     width: 1920px;
-  height: 580px;
+  
 }
 
 .box-model {
@@ -154,8 +152,7 @@ p {
   text-align: center;
   color: black;
   background-color:#E5E4E2; 
-     width: 1920px;
-  height: 580px;
+   
 }
 
 
@@ -167,8 +164,7 @@ p {
   text-align: center;
   color: white;
   background-color: #333;    
-     width: 1920px;
-  height: 580px;
+
 }
 
 
@@ -180,8 +176,7 @@ p {
   color: black;
   background-color: #E5E4E2;    
     font-size: 18px;
-     width: 1920px;
-  height: 580px;
+
 }
 
 .functionality {
@@ -192,8 +187,6 @@ p {
   text-align: center;
   color: white;
   background-color: #333;    
-     width: 1920px;
-  height: 580px;
 }
 
 .accessibility {
@@ -204,8 +197,7 @@ p {
   text-align: center;
   color: black;
   background-color: #E5E4E2;     
-     width: 1920px;
-  height: 580px;
+
 }
     
 
@@ -304,14 +296,7 @@ footer {
      padding-left:5px;
     padding-right:5px;
     font-family: 'Exo 2', sans-serif; 
-<<<<<<< HEAD
-    position: relative;right: 50px;
-=======
-    width: 1000px;
-
-
->>>>>>> e6abb1dbd2b9c7eadacd0ed7983e35e57b479497
-      
+    position: relative;right: 30px;
 }
       
  .box11{
@@ -319,20 +304,15 @@ footer {
      padding-left:5px;
     padding-right:5px;
     font-family: 'Exo 2', sans-serif; 
-<<<<<<< HEAD
-         position: relative;left: 50px;
-      
-=======
+         position: relative;left: 30px;
 
-     
->>>>>>> e6abb1dbd2b9c7eadacd0ed7983e35e57b479497
 }
 
       .box7 {
   background-color: #333; 
   padding-left:5px;
     padding-right:5px;
-       position: relative;right: 50px;     
+       position: relative;right: 30px;     
     border-bottom: 35px solid #E5E4E2;
 
 }
@@ -341,7 +321,7 @@ footer {
   background-color: #888;
      padding-left:5px;
     padding-right:5px;
-    position: relative;left:50px;
+    position: relative;left:30px;
      border-bottom: 35px solid #E5E4E2;
 
 }
