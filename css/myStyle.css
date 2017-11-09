@@ -23,6 +23,7 @@ h2 {font-family: 'Exo 2', sans-serif; }
   letter-spacing: 1px;
   text-transform: uppercase; }
 
+/* Controls Normal Text */
 p {
   font-size: 16px;
   font-family: 'Exo 2', sans-serif; 
@@ -87,6 +88,7 @@ p {
         #mainNav .nav-link.active:hover {
           color: white; } }
 
+/* Controls Home Page */
 .home {
   display: table;
   width: 100%;
@@ -105,6 +107,7 @@ p {
         text-align: center;
 }
 
+/* Button That Scrolls */
 .btn-circle {
   font-size: 100px;
   margin-top: 15px;
@@ -112,11 +115,11 @@ p {
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
   color: white;
-  border: 2px solid white;
-  border-radius: 100% !important;
   background: transparent; 
   position: relative;top: 50px;left: 37px;  
 }
+
+/* Button Hover */
   .btn-circle:focus, .btn-circle:hover {
     color: white;
     outline: none;
@@ -200,14 +203,6 @@ p {
 
 }
     
-
-.btn {
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
-  border-radius: 0; }
-
 .btn-default {
   color:white;
   border: 1px solid white;
@@ -218,8 +213,7 @@ p {
     outline: none;
     background-color: white; }
 
-
-      
+/* Footer Buttons */      
 ul.banner-social-buttons {
   margin-top: 0; }
   @media (max-width: 1199px) {
@@ -326,25 +320,6 @@ footer {
 
 }
       
-    .button {
-        border: none;
-        color: #888;
-            background-color: #333;
-            font-family: 'Exo 2', sans-serif; 
-        padding: 16px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        -webkit-transition-duration: 0.4s;
-        transition-duration: 0.4s;
-        cursor: pointer;
-            position:relative;right:452px;
-
-        
-    }
-
 ::-moz-selection {
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
